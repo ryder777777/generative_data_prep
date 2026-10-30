@@ -9,23 +9,23 @@ security: # configuration for the `safety check` command
             expires: '2022-10-21' # datetime string - date this ignore will expire, best practice to use this variable
         70612:
             reason: The maintainer and multiple third parties believe that this vulnerability isn't valid because users shouldn't use untrusted templates without sandboxing.
-            expires: '2027-04-30'
+            expires: '2025-07-16'
         71670:
             reason: Found in all torch versions >= 0
-            expires: '2027-04-30'
+            expires: '2025-07-16'
         71037:
             reason: Need this version to be compatible with Studio
-            expires: '2027-04-30'
+            expires: '2025-10-23'
         71049:
                 reason: Need this version to be compatible with Studio
-                expires: '2027-04-30'
+                expires: '2025-12-31'
         71048:
             reason: Need this version to be compatible with Studio
-            expires: '2027-04-30'
+            expires: '2025-11-30'
         74735:
             reason: Need this version to be compatible with Studio
-            expires: '2027-04-30'
+            expires: '2025-11-30'
         74882:
             reason: Need this version to be compatible with Studio
-            expires: '2027-04-30'
+            expires: '2025-11-30'
     continue-on-vulnerability-error: False
